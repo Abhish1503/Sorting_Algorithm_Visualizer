@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/STYLE.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>SORTING_VISUALIZER</title>
+</head>
+
+<body>
+    <header>
+        <div class="Heading">
+            <h1 class="nav-heading" style="font-size:4vw">Sorting visualizer</h1>
+        </div>
+        <nav>
+            <div class="generate">
+                <button id="a_generate"  class="btn btn-outline-danger" type="button">Generate New Array!</button>
+            </div>
+            <div class="array-inputs">
+                <div class="Size_">
+                    <p>Size :</p>
+                    <input id="a_size" type="range" min=20 max=150 step=2 value=80>
+                </div>
+                
+            
+               <div class="Size_">
+
+                <p>Speed :</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=3>
+               </div>
+
+               
+                <!-- <button id="a_generate">Generate New Array!</button> -->
+            </div>
+
+            
+
+            
+          
+            <div class="header_right">
+                <!-- <div class="Heading">
+                    <p class="nav-heading">Sorting visualizer</p>
+                </div> -->
+                
+
+                <div class="algos">
+                    <button type="button" class="btn btn-outline-light">Bubble</button>
+                    <button type="button" class="btn btn-outline-light">Selection</button>
+                    <button type="button" class="btn btn-outline-light">Insertion</button>
+                    <button type="button" class="btn btn-outline-light">Merge</button>
+                    <button type="button" class="btn btn-outline-light">Quick</button>
+                    <!-- <button>Heap</button> -->
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <section>
+        <!-- <div id="Info_Cont1">
+            <p>This is First Container</p>
+        </div> -->
+
+        <div id="array_container" >
+
+        </div>
+
+        <!-- <div id="Info_Cont2">
+            <p>This is Second Container</p>
+        </div> -->
+    </section>
+
+    <footer>
+
+    </footer>
+    <script src="./SCRIPT/MAIN.js"></script>
+    <script src="./SCRIPT/VISUALIZION.js"></script>
+
+
+    <script src="./SCRIPT/BUBBLE_SORT.js"></script>
+    <script src="./SCRIPT/HEAP_SORT.js"></script>
+    <script src="./SCRIPT/INSERTION_SORT.js"></script>
+    <script src="./SCRIPT/MERGE_SORT.js"></script>
+    <script src="./SCRIPT/QUICK_SORT.js"></script>
+    <script src="./SCRIPT/SELECTION_SORT.js"></script>
+</body>
+
+</html>
